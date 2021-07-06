@@ -1,0 +1,51 @@
+{
+    type: ItemTurret
+    name: "Obyn Greenfoot"
+    description: "He is one with the (possibly nonexistent) forest."
+    health: 800
+    size: 2
+    recoilAmount: 1
+    reloadTime: 60
+    range: 100
+    ammoUseEffect: none
+    inaccuracy: 10
+    rotateSpeed: 10.0
+    ammoTypes: {
+        thorium: {
+            speed: 1.0
+            damage: 50
+            lifetime: 125
+            reloadMultiplier: 1.0
+            width: 10
+            height: 30
+            homingpower: 100
+            homingrange: 500
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+            ammoMultiplier: 2
+            backColor: AF8A69
+            frontColor: ffdab9
+        }
+        cryocrystal: {
+            speed: 2.0
+            damage: 200
+            lifetime: 100
+            reloadMultiplier: 1.5
+            width: 10
+            height: 30
+            homingpower: 1000
+            homingrange: 160
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+            ammoMultiplier: 2
+            backColor: FFBE00
+            frontColor: FFBE00
+        }
+    }
+    coolantMultiplier: 0.7
+    requirements: [
+       bronze/650
+    ]
+    category: turret
+    research: duo
+}

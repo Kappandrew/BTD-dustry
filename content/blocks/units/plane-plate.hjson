@@ -1,0 +1,53 @@
+type: UnitFactory
+localizedName:  Ace Runway
+
+health: 500
+size: 3
+itemCapacity: 30
+
+requirements: [
+    copper/100
+    lead/250
+    silicon/200
+    metaglass/140
+]
+
+plans: [
+    {
+        unit: ace
+        requirements: [
+            bronze/785
+        ]
+        time: 300
+    }
+    {
+        unit: gatlingace
+        requirements: [
+            bronze/1375
+        ]
+        time: 600
+    }
+        {
+        unit: stormace
+        requirements: [
+            bronze/5555
+        ]
+        time: 600
+    }
+    {
+        unit: phantomace
+        requirements: [
+            bronze/2255
+        ]
+        time: 300
+    }
+	
+]
+
+category: units
+
+consumes: {
+    power: 0
+}
+
+research: command-center

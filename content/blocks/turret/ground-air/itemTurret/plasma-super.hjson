@@ -1,0 +1,45 @@
+{
+	type: ItemTurret
+	name: "Plasma Super Monkey"
+	description: "Shoots plasma insanely fast. Also adds camo detection."
+    details: reload time is 0.05
+	health: 5300
+	size: 2
+	range: 225
+	targetAir: true
+	rotateSpeed: 1.0
+	shootCone: 5
+	shootShake: 0.5
+	ammoUseEffect: casing3
+	reloadTime: 0.05
+	recoilAmount: 0
+	inaccuracy: 0.1
+	itemCapacity: 500
+	maxAmmo: 250
+	ammoTypes: {
+		thorium: {
+			speed: 10.0
+			damage: 100
+			reloadMultiplier: 1.0
+			ammoMultiplier: 2
+			lifetime: 22.5
+			inaccuracy: 6
+			knockback: 4
+			width: 5
+			height: 6
+			frontColor: FF0FE9
+			backColor: 911E90
+		}
+	}
+	coolantMultiplier: 0.7
+	requirements: [
+		titanium/350
+		titanit/1
+		bronze/6000
+		copper/630
+		lead/570
+		cryocrystal/15
+	]
+	category: turret
+	research: large-bronze-turret
+}

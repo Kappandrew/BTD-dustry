@@ -1,0 +1,107 @@
+type: ItemTurret
+localizedName: Piercing Cluster Bomb Cannon
+description: Same as normal cluster bombs, but pierces.
+health: 1260
+size: 3
+reloadTime: 60
+ammoUseEffect: casing1
+inaccuracy: 4
+rotateSpeed: 12
+range: 220
+shots: 1
+spread: 4
+alternate: true
+targetGround: true
+targetAir: true
+ammoTypes: {
+	pyratite: {
+		speed: 5
+		damage: 9 
+		lifetime: 60
+		width: 12
+		height: 16
+        pierce: 100
+		splashDamageRadius: 29 
+		frontColor: FC9D5DFF
+		backColor: FFAD7DFF
+		splashDamage: 60
+		ammoMultiplier: 3
+		status: burning
+		statusDuration: 120
+		fragBullets: 5
+		fragBullet: {
+			type: BombBulletType 
+			frontColor: FC9D5DFF
+			backColor: FFAD7DFF
+			height: 13
+			width: 9
+			hitEffect: flakExplosion 
+			speed: 6
+			splashDamage: 16
+			splashDamageRadius: 40
+			incendChance: 5
+			incendAmount: 4
+			incendSpread: 15
+			status: burning
+			statusDuration: 60
+			}
+		}
+		blast-compound:	{
+			speed: 5
+			damage: 60 
+			lifetime: 60	
+			width: 12
+			height: 16
+            pierce: 100
+			splashDamageRadius: 58
+			splashDamage: 80
+			ammoMultiplier: 3
+			status: blasted
+			statusDuration: 100
+			fragBullets: 6
+			fragBullet: {
+				type: BombBulletType 
+				speed: 3
+				width: 9
+				height: 13
+				damage: 30
+				hitEffect: flakExplosion
+				status: blasted
+				statusDuration: 60
+				}
+			}
+			surge-alloy: { 
+			speed: 5
+			damage: 100
+			lifetime: 60
+			splashDamage: 33 
+			splashDamageRadius: 33
+			width: 12 
+			height: 16
+            pierce: 100            
+			status: shocked
+			statusDuration: 100
+			fragBullets: 4
+			fragBullet: { 
+		type: BasicBulletType 
+		collidesTiles: false 
+		speed: 8
+		lifetime: 10
+		width: 5
+		height: 7
+		splashDamageRadius: 50
+		splashDamage: 12 
+		status: shocked
+		statusDuration: 30
+		lightning: 4 
+		lightningLength: 11
+		lightningDamage: 18
+		}
+        }	
+}				
+			
+requirements: [
+bronze/2000
+]
+category: turret
+research: cyclone

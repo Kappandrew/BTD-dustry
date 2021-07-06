@@ -1,0 +1,45 @@
+type: UnitFactory
+localizedName: Dart Hut
+description: Makes Dart Monkey units.
+health: 500
+size: 3
+itemCapacity: 30
+
+requirements: [
+    copper/100
+    lead/250
+    silicon/200
+    metaglass/140
+]
+
+plans: [
+    {
+        unit: dart
+        requirements: [
+            bronze/210
+        ]
+        time: 1200
+    }
+    {
+        unit: tridart
+        requirements: [
+            bronze/495
+        ]
+        time: 600
+    }
+    {
+        unit: sworder
+        requirements: [
+            bronze/800
+        ]
+        time: 600
+    }
+]
+
+category: units
+
+consumes: {
+    power: 0
+}
+
+research: command-center

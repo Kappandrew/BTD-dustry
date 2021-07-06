@@ -1,0 +1,22 @@
+{
+  type: GenericSmelter
+  name: "Bank"
+  description: "is bank"
+  outputItem: bronze/5
+  size: 2
+  itemcapacity: 5000
+  hasPower: false
+  craftTime: 60
+  health: 300
+  updateEffect: smeltsmoke
+  consumes: {
+  power: 0.05
+  }
+  requirements: [
+  bronze/4000
+  ],
+  category: crafting
+  research: banana-farm
+  ambientSound: respawning
+  ambientSoundVolume: 0.5
+}

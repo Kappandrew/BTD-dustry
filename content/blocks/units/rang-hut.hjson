@@ -1,0 +1,53 @@
+type: UnitFactory
+localizedName: Boomerang Hut
+description: Makes Boomerang Monkey units.
+health: 500
+size: 3
+itemCapacity: 30
+
+requirements: [
+    copper/120
+    lead/240
+    silicon/160
+    graphite/120
+]
+
+plans: [
+    {
+        unit: rang
+        requirements: [
+            bronze/320
+        ]
+        time: 1000
+    }
+    {
+        unit: glaive
+        requirements: [
+            bronze/750
+        ]
+        time: 1500
+    }
+    {
+        unit: glaivepierce
+        requirements: [
+            bronze/2750
+        ]
+        time: 3000
+    }
+    {
+        unit: biorang
+        requirements: [
+            bronze/2750
+        ]
+        time: 3000
+    }
+]
+
+
+category: units
+
+consumes: {
+    power: 0
+}
+
+research: command-center

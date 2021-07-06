@@ -1,0 +1,57 @@
+{
+    localizedName: Spike Factory
+    description: Makes spikes.
+	size: 3
+	rotateSpeed: 4
+	shootCone: 360
+	range: 120
+	health: 1000
+	recoilAmount: 0
+	reloadTime: 6.0
+	inaccuracy: 0.0
+	ammoUseEffect: casing3
+	spread: 90
+	shots: 4
+	maxAmmo: 100
+	ammoTypes: {
+		lead: {
+			speed: 10.0
+			lifetime: 2000
+			damage: 45
+			reloadMultiplier: 1.0
+			shootEffect: none
+			width: 5
+			height: 5
+			smokeEffect: none
+			collidesTiles: false
+			drag: 0.1
+			ammoMultiplier: 25
+			backColor: 999999
+			frontColor: 555555
+		}
+		titanium: {
+			speed: 10.0
+			lifetime: 600
+			damage: 70
+			reloadMultiplier: 10.0
+			shootEffect: none
+			width: 5
+			height: 5
+			smokeEffect: none
+			collidesTiles: false
+			drag: 0.1
+			ammoMultiplier: 5
+			backColor: BB9999
+			frontColor: 995555
+		}
+	}
+	requirements: [
+		bronze/1050
+		titanit/1
+		lead/55
+		silicon/55
+	]
+	coolantMultiplier: 0.7
+	category: turret
+	research: scorch
+}

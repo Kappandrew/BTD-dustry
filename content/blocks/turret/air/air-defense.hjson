@@ -1,0 +1,54 @@
+{
+	name: "Wind Monkey"
+	description: "Shoots air units out of the sky with wind."
+	type: ItemTurret
+	range: 350
+	recoilAmount: 1
+	reloadTime: 10
+	ammoUseEffect: casing1
+    ammoUseSound: throw
+	size: 3
+	health: 1600
+	targetGround: false
+	inaccuracy: 5
+	rotateSpeed: 3.0
+	ammoTypes: {
+		lead: {
+			speed: 25.0
+			lifetime: 14
+			damage: 100
+            knockback: 10
+			reloadMultiplier: 1.0
+			lifetime: 14
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			width: 3
+			height: 5
+			inaccuracy: 2
+			backColor: 888888
+			frontColor: AAAAAA
+			ammoMultiplier: 2
+		}
+         titanium: {
+			speed: 20.0
+			lifetime: 17
+			damage: 200
+            knockback: 20
+			reloadMultiplier: 0.6
+			ammoMultiplier: 2
+			lifetime: 17
+			width: 3
+			height: 5
+			frontColor: AFAFAF
+			backColor: AAAAAA
+		}
+	}
+	coolantMultiplier: 0.7
+	requirements: [
+		bronze/800
+		silicon/50
+		lead/60
+	]
+	category: turret
+	research: storm
+}

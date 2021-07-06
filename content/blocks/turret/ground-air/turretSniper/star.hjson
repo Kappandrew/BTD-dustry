@@ -1,0 +1,44 @@
+{
+    localizedName: Blade Maelstrom
+    description: Fires a METRIC BUTT TON OF BLADES every 10,000 frames. 
+    details: sry i cant maek blaeds
+	health: 4600
+	size: 6
+	recoilAmount: 0
+	reloadTime: 10000
+	range: 5000
+	spread: 1
+	inaccuracy: 0
+	shots: 800
+	shootEffect: none
+	shootSound: maelstrom
+	shootCone: 360
+	rotateSpeed: 5.0
+	ammoTypes: {
+		surge-alloy: {
+			speed: 0.5
+			damage: 1650
+			lifetime: 1000
+			reloadMultiplier: 1.0
+			width: 9
+			height: 9
+			shootEffect: none
+			smokeEffect: none
+			ammoMultiplier: 2
+			backColor: B19416
+			frontColor: FFD10B
+			splashDamageRadius: 50
+			splashDamage: 600
+		}
+	}
+	coolantMultiplier: 0.9
+	requirements: [
+		titanit/1
+		bronze/5500
+		plastanium/125
+		silicon/50
+		surge-alloy/550
+	]
+	category: turret
+	research: spectre
+}

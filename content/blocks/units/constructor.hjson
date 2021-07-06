@@ -1,0 +1,124 @@
+type: UnitFactory
+name: "Inflator"
+
+health: 500
+size: 3
+itemCapacity: 300000
+
+requirements: [
+    bronze/5000
+    cryocrystal/75
+    silicon/160
+    graphite/120
+]
+
+plans: [
+    {
+        unit: red
+        requirements: [
+            cryocrystal/5
+        ]
+        time: 1000
+    }
+    {
+        unit: blue
+        requirements: [
+            cryocrystal/10
+        ]
+        time: 1500
+    }
+    {
+        unit: green
+        requirements: [
+            cryocrystal/15
+        ]
+        time: 2000
+    }
+    {
+        unit: yellow
+        requirements: [
+            cryocrystal/20
+        ]
+        time: 2500
+    }
+    {
+        unit: pink
+        requirements: [
+            cryocrystal/25
+        ]
+        time: 3000
+    }
+        {
+        unit: air
+        requirements: [
+            cryocrystal/30
+        ]
+        time: 3000
+    }
+        {
+        unit: blac
+        requirements: [
+            cryocrystal/55
+        ]
+        time: 3000
+    }
+        {
+        unit: zebra
+        requirements: [
+            cryocrystal/85
+        ]
+        time: 9000
+    }
+        {
+        unit: prismatic
+        requirements: [
+            cryocrystal/175
+        ]
+        time: 15000
+    }
+        {
+        unit: ceram
+        requirements: [
+            cryocrystal/400
+        ]
+        time: 18000
+    }
+        {
+        unit: moab
+        requirements: [
+            cryocrystal/4000
+        ]
+        time: 24000
+    }
+    {
+        unit: rebel-dart
+        requirements: [
+            cryocrystal/50
+        ]
+        time: 1000
+    }    
+    {
+        unit: rebel-rang
+        requirements: [
+            cryocrystal/60
+        ]
+        time: 1000
+    }    
+    {
+        unit: rebel-bomb
+        requirements: [
+            cryocrystal/75
+        ]
+        time: 1000
+    }
+]
+
+
+category: units
+
+consumes: {
+    power: 2
+}
+
+research: command-center
+category: units

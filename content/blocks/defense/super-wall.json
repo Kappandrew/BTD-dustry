@@ -1,0 +1,12 @@
+{
+	"name": "Super Wall",
+	"description": "Protects blocks from enemies.",
+	"type": "Wall",
+	"health": 10000,
+	"size": 2,
+	"requirements": [
+		{ "item": "bronze", "amount": 100 }
+	],
+	"category": "defense",
+	"research": "titanium-wall"
+}

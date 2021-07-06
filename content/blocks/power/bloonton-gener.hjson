@@ -1,0 +1,22 @@
+type: BurnerGenerator
+name: Bloontonium Generator
+description: Consumes Bloontonium to produce a lot of power.
+size: 2
+hasPower: true
+hasItems: true
+itemCapacity: 10
+itemDuration: 90
+powerProduction: 80
+consumes: {
+    items: {
+  	items: [
+  		cryocrystal/1
+  	]
+  }
+}
+requirements: [
+  silicon/80
+  plastanium/120
+]
+category: power
+research: differential-generator

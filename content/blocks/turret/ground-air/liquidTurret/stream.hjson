@@ -1,0 +1,76 @@
+{
+	type: liquidTurret
+	name: "Sprayer-Class... sprayer?"
+	description: "Attacks like a Tack Shooter, with the looks and ammo of a Liquid Sprayer."
+	health: 500
+	size: 1
+	recoilAmount: 0
+	reloadTime: 1
+	range: 60
+	ammoUseEffect: casing1
+	targetAir: false
+	inaccuracy: 1.0
+	shots: 100
+	rotateSpeed: 6.0
+	ammoTypes: {
+		water: {
+			speed: 1.0
+			lifetime: 100
+			type: LiquidBulletType
+			liquid: water
+			damage: 1
+			reloadMultiplier: 1.0
+			shootEffect: shootLiquid
+			smokeEffect: shootSmallSmoke
+			
+			ammoMultiplier: 4
+			status: wet
+		}
+		slag: {
+			speed: 1.0
+			lifetime: 100
+			damage: 2
+			type: LiquidBulletType
+			liquid: slag
+			reloadMultiplier: 1.0
+			shootEffect: shootLiquid
+			smokeEffect: shootSmallSmoke
+			
+			ammoMultiplier: 4
+			status: burning
+		}
+		cryofluid: {
+			speed: 1.0
+			lifetime: 100
+			damage: 2
+			type: LiquidBulletType
+			liquid: cryofluid
+			reloadMultiplier: 1.0
+			shootEffect: shootLiquid
+			smokeEffect: shootSmallSmoke
+			
+			ammoMultiplier: 4
+			status: freezing
+		}
+		oil: {
+			speed: 1.0
+			damage: 4
+			lifetime: 100
+			type: LiquidBulletType
+			liquid: oil
+			reloadMultiplier: 1.0
+			shootEffect: shootLiquid
+			smokeEffect: shootSmallSmoke
+			
+			ammoMultiplier: 4
+			status: tarred
+		}
+	}
+	requirements: [
+		bronze/50
+		copper/25
+		metaglass/5
+	]
+	category: turret
+	research: duo
+}

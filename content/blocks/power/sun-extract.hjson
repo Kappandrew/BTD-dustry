@@ -1,0 +1,22 @@
+type: BurnerGenerator
+name: Not Solar Panel
+description: Consumes solar matter to produce a lot of power.
+size: 2
+hasPower: true
+hasItems: true
+itemCapacity: 10
+itemDuration: 90
+powerProduction: 800
+consumes: {
+    items: {
+  	items: [
+  		pure-sun/1
+  	]
+  }
+}
+requirements: [
+  silicon/800
+  plastanium/1200
+]
+category: power
+research: bloonton-gener

@@ -1,0 +1,52 @@
+{
+    type: ItemTurret
+    name: "Dartling Gunner"
+    description: "Shoots enemies with a dartling gun."
+    health: 800
+    size: 2
+    recoilAmount: 1
+    reloadTime: 4
+    range: 10000
+    ammoUseEffect: casing1
+    ammoUseSound: daka
+    inaccuracy: 10
+    rotateSpeed: 10.0
+    ammoTypes: {
+        copper: {
+            speed: 3.0
+            damage: 10
+            lifetime: 10000
+            reloadMultiplier: 1.0
+            width: 7
+            height: 9
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 2
+            backColor: AF8A69
+            frontColor: ffdab9
+        }
+        lead: {
+            speed: 2.0
+            damage: 20
+            lifetime: 5000
+            reloadMultiplier: 1.5
+            width: 7
+            height: 9
+           shootEffect: shootSmall
+     smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 2
+            backColor: FFBE00
+            frontColor: FFBE00
+        }
+    }
+    coolantMultiplier: 0.7
+    requirements: [
+       bronze/900
+       copper/30
+	   lead/25
+    ]
+    category: turret
+    research: stream
+}

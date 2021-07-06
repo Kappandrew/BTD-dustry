@@ -1,0 +1,46 @@
+{
+	type: ItemTurret
+	name: "Sun Avatar"
+	description: "here comes the sun"
+    details: reload time is 0.05
+	health: 10600
+	size: 2
+	range: 225
+	targetAir: true
+	rotateSpeed: 1.0
+	shootCone: 5
+	shootShake: 0.5
+	ammoUseEffect: casing3
+    shots: 3
+	reloadTime: 0.05
+	recoilAmount: 0
+	inaccuracy: 0.1
+	itemCapacity: 500
+	maxAmmo: 250
+	ammoTypes: {
+		copper: {
+			speed: 10.0
+			damage: 200
+			reloadMultiplier: 1.0
+			ammoMultiplier: 200
+			lifetime: 22.5
+			inaccuracy: 6
+			knockback: 4
+			width: 5
+			height: 6
+			frontColor: F8FF1C
+			backColor: B0B514
+		}
+	}
+	coolantMultiplier: 0.7
+	requirements: [
+		titanium/350
+		titanit/10
+		bronze/20000
+		copper/630
+		lead/570
+		pure-sun/1500
+	]
+	category: turret
+	research: plasma-super
+}

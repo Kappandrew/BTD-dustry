@@ -1,0 +1,35 @@
+type: OverdriveProjector
+localizedName: Monkey Town
+requirements: [
+    lead/70
+    bronze/4200
+    silicon/20
+]
+
+size: 3
+reload: 240
+range: 400
+useTime: 90
+
+hasPower: true
+hasItems: true
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: bronze
+                amount: 2
+            }
+        ]
+        booster: true
+        optional: true
+    }
+    power: 0.5
+}
+
+speedBoost: 1.5
+speedBoostPhase: 0.25
+
+category: effect
+research: mender

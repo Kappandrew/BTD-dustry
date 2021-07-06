@@ -1,0 +1,46 @@
+{
+	type: ItemTurret
+	name: "Sun Temple"
+	description: "Shoots deadly sun beams."
+    details: reload time is 0.05
+	health: 75000
+	size: 16
+	range: 500
+	targetAir: true
+	rotateSpeed: 1.0
+	shootCone: 5
+	shootShake: 0.5
+	ammoUseEffect: casing3
+    shots: 10
+	reloadTime: 0.05
+	recoilAmount: 0
+	inaccuracy: 0.1
+	itemCapacity: 500
+	maxAmmo: 250
+	ammoTypes: {
+		surge-alloy: {
+			speed: 10.0
+			damage: 2000
+			reloadMultiplier: 1.0
+			ammoMultiplier: 200
+			lifetime: 600
+			inaccuracy: 6
+			knockback: 4
+			width: 50
+			height: 60
+			frontColor: F8FF1C
+			backColor: B0B514
+		}
+	}
+	coolantMultiplier: 0.7
+	requirements: [
+		titanium/350
+		titanit/10
+		bronze/120000
+		copper/630
+		lead/570
+		pure-sun/9999
+	]
+	category: turret
+	research: sun
+}

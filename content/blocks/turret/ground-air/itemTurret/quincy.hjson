@@ -1,0 +1,51 @@
+{
+    type: ItemTurret
+    name: "Quincy the Arher Monkey"
+    description: "Nothing gets past his bow."
+    health: 800
+    size: 2
+    recoilAmount: 1
+    reloadTime: 4
+    range: 100
+    ammoUseEffect: casing1
+    inaccuracy: 10
+    rotateSpeed: 10.0
+    ammoTypes: {
+        copper: {
+            speed: 1.0
+            damage: 50
+            lifetime: 100
+            reloadMultiplier: 1.0
+            width: 7
+            height: 9
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 2
+            backColor: AF8A69
+            frontColor: ffdab9
+        }
+        lead: {
+            speed: 2.0
+            damage: 100
+            lifetime: 100
+            reloadMultiplier: 1.5
+            width: 7
+            height: 9
+           shootEffect: shootSmall
+     smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 2
+            backColor: FFBE00
+            frontColor: FFBE00
+        }
+    }
+    coolantMultiplier: 0.7
+    requirements: [
+       bronze/600
+       copper/30
+	   lead/25
+    ]
+    category: turret
+    research: bronze-turret
+}

@@ -1,0 +1,18 @@
+type: ShockMine
+localizedName: Road Spikes
+size: 1
+requirements: [
+    bronze/20
+]
+
+hasShadow: false
+placeableLiquid: true
+health: 50
+damage: 10
+tileDamage: 5
+tendrils: 10
+length: 1
+cooldown: 60
+
+category: effect
+research: duo

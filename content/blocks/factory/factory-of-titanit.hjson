@@ -1,0 +1,30 @@
+{
+  type: GenericSmelter
+  name: "Bill Press"
+  description: "Produces Monkey Money. necessary for more powerful monkeys."
+  outputItem: titanit/1
+  size: 2
+  hasPower: true
+  craftTime: 0
+  health: 300
+  updateEffect: smeltsmoke
+  consumes: {
+  power: 4.0
+  items: {
+    items: [
+      bronze/10
+    ]
+  }
+  }
+  requirements: [
+    lead/40
+    copper/40
+    bronze/3500
+    graphite/35
+    titanium/40
+  ],
+  category: crafting
+  research: factory-of-bronze
+  ambientSound: respawning
+  ambientSoundVolume: 0.5
+}

@@ -1,0 +1,74 @@
+type: ItemTurret
+localizedName: Cannon
+description: Fires high damage bombs. not much to it.
+targetAir: true
+targetGround: true
+health: 1050
+size: 2
+reloadTime: 60
+ammoUseEffect: casing1
+inaccuracy: 2
+rotateSpeed: 12
+range: 140
+hitShake: 1
+shots: 1
+alternate: true
+targetGround: true
+targetAir: true
+ammoTypes: {
+	blast-compound : {
+		speed: 4.5
+		damage: 48
+		width: 10
+		height: 10
+		splashDamageRadius: 69
+		splashDamage: 98
+		lifetime: 50
+		hitEffect: blastExplosion 
+		despawnEffect: blastExplosion 
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 2
+		}
+		pyratite: {
+			speed: 4.5
+			lifetime: 50
+			damage: 35
+			width: 10
+			height: 10
+			splashDamageRadius: 35
+			splashDamage: 75
+			frontColor: FC9D5DFF 
+			backColor: FFAD7DFF					
+			status: burning
+			hitEffect: shockwave
+			despawnEffect: shockwave
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 4
+			makeFire: true
+			}
+			cryocrystal: {
+				speed: 3
+				lifetime: 50
+				damage: 9
+				width: 10
+				height: 10
+				splashDamageRadius: 55
+				splashDamage: 48
+				fragBullet: artilleryPlasticFrag
+				fragBullets: 7
+				backColor: plastaniumBack
+				frontColor: plastaniumFront
+				hitEffect: shockwave
+				despawnEffect: bigShockwave
+				shootEffect: shootSmall
+				smokeEffect: shootSmallSmoke
+				ammoMultiplier: 3
+				}
+		}
+requirements: [
+bronze/600
+]
+category: turret
+research: hail
