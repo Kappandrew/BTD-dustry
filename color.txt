@@ -1,0 +1,8 @@
+crystal: 63E6F2
+back-crystal: 64C2CA
+
+titanit: 00BB00
+back-titanit: 009900
+
+bronze: ffdab9
+back-bronze: AF8A69
