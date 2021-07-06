@@ -1,0 +1,37 @@
+type: flying
+localizedName: Nontower Super Monkey
+description: Fires TOO MANY DARTS.
+flying: true
+speed: 0.5
+hitSize: 9
+health: 10000
+armor: 0
+range: 75
+
+weapons: [
+	{
+		name: spread-shotgun
+		reload: 2
+		x: 4
+		y: 2
+		top: false
+		ejectEffect: casing1
+		shootSound: throw
+		shots: 5
+		inaccuracy: 15
+		bullet: {
+			type: BasicBulletType
+			damage: 10
+			speed: 2.5
+			width: 7
+			height: 9
+			lifetime: 30
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+]
+
+research: tridart

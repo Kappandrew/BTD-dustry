@@ -1,0 +1,38 @@
+type: mech
+localizedName: Nontower Boomerang Monkey
+description: Throws a 'boomerang' at enemies. 
+details: i cant make boomerangs in mindustry so..... yeah.
+flying: false
+speed: 0.5
+hitSize: 9
+health: 220
+armor: 0
+range: 75
+
+weapons: [
+	{
+		name: spread-shotgun
+		reload: 45
+		x: 4
+		y: 2
+		top: false
+		ejectEffect: casing1
+		shootSound: throw
+		shots: 5
+		inaccuracy: 0
+		bullet: {
+			type: BasicBulletType
+			damage: 10
+			speed: 2.5
+			width: 70
+			height: 9
+			lifetime: 30
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+]
+
+research: dagger

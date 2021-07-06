@@ -1,0 +1,60 @@
+type: flying
+localizedName: Operation Dart Storm
+description: Fires 20 darts at once. Also has a gatling gun.
+flying: true
+speed: 3.5
+hitSize: 9
+health: 10000
+armor: 10
+range: 75
+
+weapons: [
+	{
+		name: spread-shotgun
+		reload: 30
+		x: 4
+		y: 2
+		top: false
+		ejectEffect: casing1
+		shootSound: throw
+		shots: 20
+		inaccuracy: 360
+		bullet: {
+			type: BasicBulletType
+			damage: 50
+			speed: 2.5
+			width: 7
+			height: 9
+			lifetime: 30000
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+    {
+		name: spread-shotgun-a
+		reload: 2
+		x: 4
+		y: 2
+		top: false
+		ejectEffect: casing1
+		shootSound: pew
+		shots: 5
+		inaccuracy: 10
+		bullet: {
+			type: BasicBulletType
+			damage: 10
+			speed: 2.5
+			width: 7
+			height: 9
+			lifetime: 240
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+]
+
+research: gatlingace

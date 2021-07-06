@@ -1,0 +1,198 @@
+type: flying
+name: Bullet Heck Bloon
+description: A Bloon With Bullet Heck Attacks.
+details: HA HA! YOU FOOL! YOU THOUGHT I WOULD JUST ADD THE BLOONS MUSIC! INSTEAD, I DECIDED TO MAKE A BULLET HECK BOSS FIRST!
+speed: 0.5
+fallSpeed: 0.01
+accel: 0.07
+drag: 0.10
+engineOffset: 20
+engineSize: 30
+flying: true
+mineTier: 5
+mineSpeed: 10
+buildSpeed: 5
+rotateSpeed: 0.50
+commandLimit: 15
+itemCapacity: 500
+hitSize: 80
+faceTarget: true
+range: 220
+health: 1000000
+armor: 5000
+weapons: [
+{"name": "bullet-hell-weapon",
+  "x": 0,
+  "y": 3,
+  "mirror": false,
+  "top": false,
+  shootY: 0
+  shootCone: 360
+    recoil: 0
+	reload: 200
+	shots: 45
+  shotDelay: 3
+  spacing: 10
+	inaccuracy: 0
+	velocityRnd: 0
+	cooldownTime: 250
+    chargeSound: lasercharge
+	firstShotDelay: 59
+  "shootSound": "corexplode",
+    "bullet": {
+    type: "basicBulletType",
+    frontColor: dc143c
+	  backColor: ff0000
+	  trailColor: 8b0000
+	  hitColor: 8b0000
+      hitEffect: massiveExplosion
+      hitSound: explosionbig
+      trailEffect: mineBig
+      trailChance: 1
+      despawnEffect: massiveExplosion
+      shootEffect: lancerLaserChargeBegin
+      smokeEffect: impactsmoke
+      width: 15
+      height: 15
+      speed: 4
+      lifetime: 600
+	    damage: 5000
+      hittable: false
+      pierce: true
+	    pierceBuilding: false
+	    pierceCap: 10
+      }
+    }
+     {"name": "double-bullet",
+      x: 0
+      y: 0
+      reload: 600
+      shots: 80
+      shotDelay: 2
+      xRand: 4
+      rotate: false
+      alternate: false
+      mirror: true
+      top: true
+      spacing: 1
+     	inaccuracy: 3
+     	velocityRnd: 0
+      shootCone: 2
+     	cooldownTime: 550
+         chargeSound: lasercharge
+     	firstShotDelay: 199
+       "shootSound": "shootBig",
+         "bullet": {
+         type: "basicBulletType",
+         frontColor: dc143c
+     	  backColor: ff0000
+     	  trailColor: 8b0000
+     	  hitColor: 8b0000
+           hitEffect: massiveExplosion
+           hitSound: explosionbig
+           trailEffect: mineBig
+           trailChance: 0.8
+           despawnEffect: massiveExplosion
+           shootEffect: lancerLaserChargeBegin
+           smokeEffect: impactsmoke
+           width: 20
+           height: 20
+           speed: 4
+           lifetime: 600
+     	    damage: 5000
+           hittable: false
+           pierce: true
+     	    pierceBuilding: false
+     	    pierceCap: 5
+
+          }
+        }
+            {"name": "rail-bullet",
+            "x": 7,
+            "y": 3,
+            "mirror": false,
+            "top": true,
+            "alternate": false
+            rotate: true
+            shootY: 0
+            shootCone: 0
+              recoil: 0
+          	reload: 990
+          	shots: 1
+            shotDelay: 0
+            spacing: 0
+          	inaccuracy: 0
+          	velocityRnd: 0
+          	cooldownTime: 750
+              chargeSound: lasercharge
+          	firstShotDelay: 300
+            "shootSound": "shootBig",
+              "bullet": {
+              type: "type: LaserBoltBulletType",
+              frontColor: dc143c
+          	  backColor: ff0000
+          	  trailColor: 8b0000
+          	  hitColor: 8b0000
+                hitEffect: massiveExplosion
+                hitSound: explosionbig
+                trailEffect: massiveExplosion
+                trailChance: 0.8
+                despawnEffect: massiveExplosion
+                shootEffect: lancerLaserChargeBegin
+                smokeEffect: impactsmoke
+                width: 70
+                height: 70
+                hitSize: 65
+                speed: 6
+                lifetime: 600
+          	    damage: 5000
+                hittable: false
+                pierce: true
+          	    pierceBuilding: false
+          	    pierceCap: 3
+                }}
+                {"name": "bullet-blast",
+                 x: 0
+                 y: 0
+                 reload: 1000
+                 shots: 80
+                 shotDelay: 0
+                 xRand: 4
+                 rotate: false
+                 alternate: false
+                 mirror: true
+                 top: true
+                 spacing: 6
+                	inaccuracy: 0
+                	velocityRnd: 0
+                 shootCone: 360
+                	cooldownTime: 650
+                    chargeSound: lasercharge
+                	firstShotDelay: 399
+                  "shootSound": "shootBig",
+                    "bullet": {
+                    type: "basicBulletType",
+                    frontColor: dc143c
+                	  backColor: ff0000
+                	  trailColor: 8b0000
+                	  hitColor: 8b0000
+                      hitEffect: massiveExplosion
+                      hitSound: explosionbig
+                      trailEffect: mineBig
+                      trailChance: 1
+                      despawnEffect: massiveExplosion
+                      shootEffect: lancerLaserChargeBegin
+                      smokeEffect: impactsmoke
+                      width: 20
+                      height: 20
+                      speed: 6
+                      lifetime: 600
+                	    damage: 5000
+                      hittable: false
+                      pierce: true
+                	    pierceBuilding: false
+                	    pierceCap: 5
+
+                     }
+                   }
+                   ]

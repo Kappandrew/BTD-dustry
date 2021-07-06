@@ -1,0 +1,50 @@
+type: mech
+localizedName: B.A.D
+description: Floats to buildings, EXPLODING upon contact. 81600 RBE.
+details: Bloon T12, the Big Airship of Doom.
+flying: false
+hitSize: 16
+health: 4080000
+speed: 0.05
+accel: 0.1
+drag: 0.025
+range: 75
+engineOffset: 5.4
+
+weapons: [
+	{
+		reload: 60
+		mirror: false
+		shootSound: mpopzomg
+		ignoreRotation: true
+		bullet: {
+			type: BombBulletType
+			killShooter: true
+			instantDisappear: true
+			damage: 0
+			radius: 85
+			splashDamage: 4080000
+			splashDamageRadius: 650
+			knockback: 4
+			status: sapped
+			despawnEffect: {
+				type: WaveEffect
+				colorFrom: bf92f9ff
+				colorTo: bf92f9ff
+				sizeFrom: 0
+				sizeTo: 65
+				lifetime: 25
+			}
+			hitEffect: {
+				type: WaveEffect
+				colorFrom: bf92f9ff
+				colorTo: bf92f9ff
+				sizeFrom: 0
+				sizeTo: 65
+				lifetime: 25
+			}
+		}
+	}
+]
+
+research: crawler

@@ -1,0 +1,37 @@
+type: flying
+localizedName: Gatling Ace
+description: Has a gatling gun.
+flying: true
+speed: 2
+hitSize: 9
+health: 1500
+armor: 0
+range: 75
+
+weapons: [
+	{
+		name: spread-shotgun
+		reload: 3
+		x: 4
+		y: 2
+		top: false
+		ejectEffect: casing1
+		shootSound: throw
+		shots: 8
+		inaccuracy: 10
+		bullet: {
+			type: BasicBulletType
+			damage: 10
+			speed: 2.5
+			width: 7
+			height: 9
+			lifetime: 120
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+]
+
+research: ace

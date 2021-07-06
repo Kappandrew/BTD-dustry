@@ -1,0 +1,50 @@
+type: mech
+localizedName: Air Bloon
+description: Floats to buildings, popping upon contact. Faster than the Pink bloon. 6 RBE.
+details: Bloon T6A, ULTRA-FAST.
+flying: false
+hitSize: 10
+health: 300
+speed: 8
+accel: 0.1
+drag: 0.025
+range: 65
+engineOffset: 5.4
+
+weapons: [
+	{
+		reload: 60
+		mirror: false
+		shootSound: pop
+		ignoreRotation: true
+		bullet: {
+			type: BombBulletType
+			killShooter: true
+			instantDisappear: true
+			damage: 0
+			radius: 65
+			splashDamage: 300
+			splashDamageRadius: 65
+			knockback: 4
+			status: sapped
+			despawnEffect: {
+				type: WaveEffect
+				colorFrom: bf92f9ff
+				colorTo: bf92f9ff
+				sizeFrom: 0
+				sizeTo: 65
+				lifetime: 25
+			}
+			hitEffect: {
+				type: WaveEffect
+				colorFrom: bf92f9ff
+				colorTo: bf92f9ff
+				sizeFrom: 0
+				sizeTo: 65
+				lifetime: 25
+			}
+		}
+	}
+]
+
+research: crawler

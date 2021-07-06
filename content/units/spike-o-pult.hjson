@@ -1,0 +1,40 @@
+type: mech
+localizedName: Nontower Spike-o-Pult
+description: Spike-o-pults have high pierce, high damage, and slow fire rate.
+flying: false
+speed: 0.05
+hitSize: 9
+health: 2200
+armor: 0
+range: 75
+
+weapons: [
+	{
+		name: spread-shotgun
+		reload: 180
+		x: 4
+		y: 2
+		top: false
+		ejectEffect: casing1
+		shootSound: throw
+		shots: 1
+		inaccuracy: 0
+		bullet: {
+			type: BasicBulletType
+			damage: 250
+			speed: 2.5
+			width: 20
+			height: 20
+            pierce: true
+            pierceBuilding: false
+            pierceCap: 15
+			lifetime: 300
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+]
+
+research: dagger

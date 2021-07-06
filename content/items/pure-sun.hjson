@@ -1,0 +1,19 @@
+{
+ name: "A Piece of the Sun"
+ description: "A small bunch of solar matter."
+ details: "HOW DO YOU GET MATTER FROM THE SUN!??!?!?!?"
+ color: 47EDEF
+ research: {
+    parent: cryocrystal
+    requirements: [
+      {
+        item: bronze
+        amount: 125000
+      }
+      {
+        item: titanit
+        amount: 5000
+      }
+    ]
+  }
+}

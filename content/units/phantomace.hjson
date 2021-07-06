@@ -1,0 +1,37 @@
+type: flying
+localizedName: Phantom Monkey Ace
+description: Same as a normal Monkey Ace, but more HP and Armor.
+flying: true
+speed: 2
+hitSize: 9
+health: 7000
+armor: 20
+range: 75
+
+weapons: [
+	{
+		name: spread-shotgun
+		reload: 45
+		x: 4
+		y: 2
+		top: false
+		ejectEffect: casing1
+		shootSound: throw
+		shots: 8
+		inaccuracy: 360
+		bullet: {
+			type: BasicBulletType
+			damage: 50
+			speed: 2.5
+			width: 7
+			height: 9
+			lifetime: 30000
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+]
+
+research: ace

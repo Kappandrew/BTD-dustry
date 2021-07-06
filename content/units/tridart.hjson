@@ -1,0 +1,37 @@
+type: mech
+localizedName: Nontower Tri-Dart Monkey
+description: Fires fifteen spread-out darts in a panic at enemy units. Stronger when the darts are closer together.
+flying: false
+speed: 0.5
+hitSize: 9
+health: 220
+armor: 0
+range: 75
+
+weapons: [
+	{
+		name: spread-shotgun
+		reload: 60
+		x: 4
+		y: 2
+		top: false
+		ejectEffect: casing1
+		shootSound: throw
+		shots: 15
+		inaccuracy: 15
+		bullet: {
+			type: BasicBulletType
+			damage: 10
+			speed: 2.5
+			width: 7
+			height: 9
+			lifetime: 30
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+]
+
+research: dart

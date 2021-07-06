@@ -1,0 +1,51 @@
+type: mech
+localizedName: Anti-Blast Bloon
+description: Floats to buildings, popping upon contact. 11 RBE. 
+details: Bloon T6B.
+
+flying: false
+hitSize: 10
+health: 550
+speed: 1.2
+accel: 0.1
+drag: 0.025
+range: 65
+engineOffset: 5.4
+
+weapons: [
+	{
+		reload: 60
+		mirror: false
+		shootSound: pop
+		ignoreRotation: true
+		bullet: {
+			type: BombBulletType
+			killShooter: true
+			instantDisappear: false
+			damage: 0
+			radius: 65
+			splashDamage: 550
+			splashDamageRadius: 65
+			knockback: 4
+			status: sapped
+			despawnEffect: {
+				type: WaveEffect
+				colorFrom: bf92f9ff
+				colorTo: bf92f9ff
+				sizeFrom: 0
+				sizeTo: 65
+				lifetime: 25
+			}
+			hitEffect: {
+				type: WaveEffect
+				colorFrom: bf92f9ff
+				colorTo: bf92f9ff
+				sizeFrom: 0
+				sizeTo: 65
+				lifetime: 25
+			}
+		}
+	}
+]
+
+research: red

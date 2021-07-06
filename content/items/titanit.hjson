@@ -1,0 +1,22 @@
+{
+ name: "[green]Monkey Money"
+ description: "Used to buy towers, often more powerful than what normal [yellow]money []can buy."
+ color: 0000CC
+ research: {
+    parent: bronze
+    requirements: [
+      {
+        item: bronze
+        amount: 500
+      }
+      {
+        item: lead
+        amount: 800
+      }
+      {
+        item: titanium
+        amount: 500
+      }
+    ]
+  }
+}

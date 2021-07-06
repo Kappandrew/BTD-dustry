@@ -1,0 +1,40 @@
+type: mech
+localizedName: Bomb Rebel Bloon
+description: Fires a CANNON at enemies.
+details: no it doesn't do base damage
+flying: false
+speed: 0.5
+hitSize: 9
+health: 220
+armor: 0
+range: 75
+
+weapons: [
+	{
+		name: spread-shotgun
+		reload: 60
+		x: 4
+		y: 2
+		top: false
+		ejectEffect: casing1
+		shootSound: throw
+		shots: 1
+		inaccuracy: 15
+		bullet: {
+			type: BasicBulletType
+			damage: 0		
+            splashDamageRadius: 25
+            splashDamage: 100
+			speed: 2.5
+			width: 7
+			height: 9
+			lifetime: 30
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+]
+
+research: dagger

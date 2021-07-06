@@ -1,0 +1,118 @@
+type: flying
+name: Apache Dartship
+description: Shoots a lotta darts.
+speed: 3
+accel: 0.07
+drag: 0.10
+engineOffset: 60
+engineSize: 27
+flying: true
+mineTier: 5
+mineSpeed: 10
+buildSpeed: 5
+rotateSpeed: 3
+commandLimit: 15
+itemCapacity: 500
+hitSize: 95
+faceTarget: true
+range: 80
+health: 100000
+armor: 5000
+weapons: [
+{
+  name: machine-gun
+  x: 0
+  y: 9
+  recoil: 1
+  reload: 1
+  inaccuracy: 2
+  rotate: true
+  alternate: false
+  shots: 2
+  shootCone: 1.5
+  spacing: 1.2
+  mirror: false
+  shake: 2
+  bullet: {
+      speed: 9
+      width: 10
+      height: 14
+      lifetime: 100
+      damage: 350
+      shootSound: shoot
+        }
+     }
+  {
+  name: pulse
+  x: 14
+  y: 14
+  reload: 4
+  rotate: true
+  rotateSpeed: 4
+  alternate: true
+  mirror: true
+  inaccuracy: 2
+  recoil: 1
+  shake: 1
+  shootSound: missile
+  bullet: {
+  type: LaserBoltBulletType
+  damage: 1000
+  speed: 9
+  lifetime: 100
+  collidesTeam: true
+  frontColor: ffffff
+  backColor: dc143c
+    }
+  }
+  {
+  name: the-laser
+  x: 0
+  y: 17
+  shootY: 23
+  reload: 120
+  chargeSound: lasercharge2
+  shootSound: beam
+  continuous: true
+  cooldownTime: 500
+  shake: 4
+  rotate: false
+  rotateSpeed: 5
+  firstShotDelay: 50
+  alternate: false
+  mirror: false
+  shadow: 50
+  bullet: {
+     type: ContinuousLaserBulletType
+     damage: 5000
+     length: 300
+     hitEffect: nuclearShockwave
+     drawSize: 120
+     lifetime: 599
+     shake: 3
+     despawnEffect: smokeCloud
+     smokeEffect: none
+     shootEffect: greenLaserChargeSmall
+     incendChance: 1
+     incendSpread: 10
+     incendAmount: 3
+     healPercent: 0
+     collidesTeam: true
+     width: 33
+     colors: [
+      990000, 990000, 990000, 990000
+    ]
+    shootStatus: melting
+    shootStatusDuration: 300
+  }
+      }
+         ],
+         "abilities": [
+             {
+             "type": "mindustry.entities.abilities.ForceFieldAbility",
+             "radius": 90,
+             "regen": 0.5,
+             "max": 4000,
+             "cooldown": 600
+                 }
+             ]

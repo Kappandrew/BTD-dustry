@@ -1,0 +1,51 @@
+type: mech
+localizedName: MOAB
+description: Floats to buildings, popping upon contact. 800 RBE.
+details: Bloon T10, Massive Ornery Air Blimp.
+
+flying: false
+hitSize: 16
+health: 40000
+speed: 0.4
+accel: 0.1
+drag: 0.025
+range: 75
+engineOffset: 5.4
+
+weapons: [
+	{
+		reload: 60
+		mirror: false
+		shootSound: mpop
+		ignoreRotation: true
+		bullet: {
+			type: BombBulletType
+			killShooter: true
+			instantDisappear: true
+			damage: 0
+			radius: 85
+			splashDamage: 40000
+			splashDamageRadius: 65
+			knockback: 4
+			status: sapped
+			despawnEffect: {
+				type: WaveEffect
+				colorFrom: bf92f9ff
+				colorTo: bf92f9ff
+				sizeFrom: 0
+				sizeTo: 65
+				lifetime: 25
+			}
+			hitEffect: {
+				type: WaveEffect
+				colorFrom: bf92f9ff
+				colorTo: bf92f9ff
+				sizeFrom: 0
+				sizeTo: 65
+				lifetime: 25
+			}
+		}
+	}
+]
+
+research: crawler
