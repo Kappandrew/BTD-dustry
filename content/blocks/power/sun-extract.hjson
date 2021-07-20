@@ -4,7 +4,10 @@ description: Consumes solar matter to produce a lot of power.
 size: 2
 hasPower: true
 hasItems: true
-itemCapacity: 10
+itemCapacity: 70
+hasItems: true, 
+minItemEfficiency: 0.2,
+randomlyExplode: false,
 itemDuration: 90
 powerProduction: 800
 consumes: {

@@ -1,6 +1,7 @@
 {
 	"type": "Reconstructor",
-	"localizedName":"Exponential Hangar",
+	"localizedName":"Ohno Hangar",
+    "description": "Upgrades units using ohno magic.",
 	"size": 7,
 	"constructTime": 800,
 	"consumes": {
@@ -22,7 +23,7 @@
 	],
 	"upgrades": [
         ["bfb", "zomg"],
-		["bhb", "bad"]
+		["red", "bhb"]
 	],
 	"category": "units",
 	"research": "multiplicative-reconstructor"

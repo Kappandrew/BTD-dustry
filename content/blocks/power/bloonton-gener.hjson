@@ -6,6 +6,8 @@ hasPower: true
 hasItems: true
 itemCapacity: 10
 itemDuration: 90
+hasItems: true, 
+minItemEfficiency: 0.2,
 powerProduction: 80
 consumes: {
     items: {
