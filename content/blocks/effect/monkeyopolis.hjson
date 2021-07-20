@@ -1,0 +1,14 @@
+Type: CoreBlock
+localizedName: "Monkeyopolis"
+description: For when you need a engineer or something idk
+health: 26000
+itemCapacity: 45000
+size: 6
+category: effect
+unitType: engineer
+unitCapModifier: 48
+requirements: [
+  bronze/12000
+  titanit/500
+]
+research: engineer

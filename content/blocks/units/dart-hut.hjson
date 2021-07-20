@@ -34,6 +34,13 @@ plans: [
         ]
         time: 600
     }
+    {
+        unit: engineer
+        requirements: [
+            bronze/800
+        ]
+        time: 600
+    }
 ]
 
 category: units
