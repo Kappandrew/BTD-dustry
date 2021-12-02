@@ -1,0 +1,14 @@
+localizedName: Road Spikes
+hasShadow: false
+health: 100
+update: false
+destructible: true
+solid: false
+targetable: false
+
+requirements: [
+	scrap/4
+]
+
+category: effect
+research: duo

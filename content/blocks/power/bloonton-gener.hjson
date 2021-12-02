@@ -1,14 +1,15 @@
 type: BurnerGenerator
-name: Bloontonium Generator
-description: Consumes Bloontonium to produce a lot of power.
+name: Bloontonium Reactor
+description: Uses Bloontonium to make a good bitta power.
 size: 2
 hasPower: true
 hasItems: true
-itemCapacity: 10
-itemDuration: 90
+itemCapacity: 70
 hasItems: true, 
 minItemEfficiency: 0.2,
-powerProduction: 80
+randomlyExplode: false,
+itemDuration: 90
+powerProduction: 800
 consumes: {
     items: {
   	items: [
@@ -21,4 +22,4 @@ requirements: [
   plastanium/120
 ]
 category: power
-research: differential-generator
+research: power-node

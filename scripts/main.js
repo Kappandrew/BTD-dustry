@@ -12,4 +12,4 @@ for(var i=0;i<scripts.length;i++){
 		Log.err('Error: '+err);
 	};
 };
-Log.info('End main [TurretsMod]');
+

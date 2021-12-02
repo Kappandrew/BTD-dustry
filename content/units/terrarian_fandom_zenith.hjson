@@ -1,0 +1,133 @@
+type: mech
+localizedName: Terrarian (Tier Aleph-0 / Fandom tier)
+description: "[red]The cultimation of the entire Terraria community. /nWeapons: /n[]Gun 1: /n[#00AA00]Amalgamationizer /n [white]220 DMG Shotgun Superweapon /nGun 2: /n[#00AA00]Luminite Blaster /n[white]90 DMG Handgun /n Sword: /n O[red]OGB[blue]SOC[white]/n 24750 DMG Shortsword /nSword Beam:/n[green] True Influx Waver /n 341 DMG Sword Beam /n Summon: [red]Miniature Moon Lord /n[white]1000 DMG Summon"
+flying: false
+speed: 3
+hitSize: 9
+health: 400
+armor: 24
+range: 75
+
+weapons: [
+	{
+		name: gun-one
+		reload: 26
+		x: 4
+		y: 2
+		top: false
+		shootSound: gun
+		shots: 5
+		inaccuracy: 20
+		bullet: {
+			type: BasicBulletType
+			damage: 220
+			speed: 10
+			width: 4
+			height: 3
+			lifetime: 45
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0
+		}
+	}
+    {
+		name: gun-two
+		reload: 15
+		x: 4
+		y: 2
+		top: false
+		shootSound: gun
+		shots: 5
+		inaccuracy: 30
+		bullet: {
+			type: BasicBulletType
+			damage: 25
+			speed: 5
+			width: 7
+			height: 3
+			lifetime: 60
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+    	{
+		name: sword
+		reload: 15
+		x: 4
+		y: 2
+		top: false
+		shootSound: sword
+		shots: 5
+		inaccuracy: 15
+		bullet: {
+			type: BasicBulletType
+			damage: 30
+			speed: 2.5
+			width: 9
+			height: 25
+			lifetime: 5
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+    {
+		name: sword-beam
+		reload: 30
+		x: 4
+		y: 2
+		top: false
+		shootSound: sword
+		shots: 3
+		inaccuracy: 5
+		bullet: {
+			type: BasicBulletType
+			damage: 341
+			speed: 2.5
+			width: 9
+			height: 25
+            pierce: true
+            pierceCap: 3
+			lifetime: 9999999
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+    {
+		name: death
+		reload: 60000
+		x: 4
+		y: 2
+		top: false
+		ejectEffect: casing1
+		shootSound: throw
+		shots: 1
+		inaccuracy: 0
+		bullet: {
+			type: BasicBulletType
+			damage: 1000
+			speed: 7.5
+			width: 25
+			height: 25
+            pierce: true
+            pierceBuilding: true
+            pierceCap: 150000
+            homingPower: 0.1
+            homingRange: 200
+			lifetime: 60000
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+    
+]
+
+research: terrarian_silver

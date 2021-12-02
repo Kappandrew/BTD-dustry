@@ -2,7 +2,7 @@ Type: CoreBlock
 localizedName: "Monkeyopolis"
 description: For when you need a engineer or something idk
 health: 26000
-itemCapacity: 45000
+itemCapacity: 200000000
 size: 6
 category: effect
 unitType: engineer

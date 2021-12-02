@@ -1,6 +1,6 @@
 {
 	name: Sniper
-	description: -
+	description: has infinite range.
 	type: ItemTurret
 	size: 3
 	health: 450
@@ -15,7 +15,7 @@
 	ammoTypes: {
 		graphite: {
 			speed: 50.0
-			lifetime: 10
+			lifetime: 100
 			damage: 95
 			reloadMultiplier: 0.5
 			width: 3

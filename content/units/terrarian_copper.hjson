@@ -1,0 +1,60 @@
+type: mech
+localizedName: Terrarian (Tier 2 / CU tier)
+description: Basic melee/ranged unit.
+
+flying: false
+speed: 0.5
+hitSize: 9
+health: 400
+armor: 8
+range: 75
+
+weapons: [
+	{
+		name: bow
+		reload: 60
+		x: 4
+		y: 2
+		top: false
+		shootSound: bow
+		shots: 1
+		inaccuracy: 5
+		bullet: {
+			type: BasicBulletType
+			damage: 15
+			speed: 2.5
+			width: 7
+			height: 3
+			lifetime: 180
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+    	{
+		name: sword
+		reload: 30
+		x: 4
+		y: 2
+		top: false
+		shootSound: sword
+		shots: 1
+		inaccuracy: 0
+		bullet: {
+			type: BasicBulletType
+			damage: 21
+			speed: 2.5
+			width: 9
+			height: 25
+			lifetime: 5
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+    
+]
+
+research: terrarian_wood

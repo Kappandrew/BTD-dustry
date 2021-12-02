@@ -1,0 +1,19 @@
+{
+  name: "Wood"
+  description: "Basic material."
+  color: ffdab9
+  flammability: 6
+  research: {
+    parent: copper
+    requirements: [
+      {
+        item: copper
+        amount: 500
+      }
+      {
+        item: lead
+        amount: 500
+      }
+    ]
+  }
+}

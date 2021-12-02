@@ -1,0 +1,14 @@
+Type: CoreBlock
+localizedName: "Calamitous Core"
+description: ¨{DATA EXPUNGED}¨
+health: 999999
+itemCapacity: 200000000
+size: 8
+category: effect
+unitType: calamitas
+unitCapModifier: 255
+requirements: [
+  bronze/1200000
+  titanit/50000
+]
+research: monkeyopolis

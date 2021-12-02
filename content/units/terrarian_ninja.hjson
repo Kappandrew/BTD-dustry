@@ -1,0 +1,36 @@
+type: mech
+localizedName: Terrarian (T5 Ranged)
+description: Basic ranged unit.
+flying: false
+speed: 0.5
+hitSize: 9
+health: 220
+armor: 0
+range: 75
+
+weapons: [
+	{
+		name: throwstar
+		reload: 15
+		x: 4
+		y: 2
+		top: false
+		shootSound: throw
+		shots: 1
+		inaccuracy: 5
+		bullet: {
+			type: BasicBulletType
+			damage: 10
+			speed: 2.5
+			width: 5
+			height: 3
+			lifetime: 65
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+		}
+	}
+
+]
+
+research: dagger

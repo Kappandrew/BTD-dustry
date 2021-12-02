@@ -1,32 +1,31 @@
-type: flying
-localizedName: Nontower Super Monkey
-description: Fires TOO MANY DARTS.
-flying: true
+type: naval
+localizedName: Nontower Monkey Pirate
+description: dart cannon dart cannon
+flying: false
 speed: 0.5
-hitSize: 9
-health: 10000
+hitSize: 18
+health: 220
 armor: 0
 range: 75
-commandLimit: 128
 
 weapons: [
 	{
 		name: spread-shotgun
-		reload: 2
+		reload: 60
 		x: 4
 		y: 2
 		top: false
 		ejectEffect: casing1
 		shootSound: throw
-		shots: 5
-		inaccuracy: 15
+		shots: 1
+		inaccuracy: 0
 		bullet: {
 			type: BasicBulletType
-			damage: 10
+			damage: 100
 			speed: 2.5
 			width: 7
 			height: 9
-			lifetime: 30
+			lifetime: 120
 			shootEffect: shootSmall
 			smokeEffect: shootSmallSmoke
 			ammoMultiplier: 2
@@ -35,4 +34,4 @@ weapons: [
 	}
 ]
 
-research: tridart
+research: dagger

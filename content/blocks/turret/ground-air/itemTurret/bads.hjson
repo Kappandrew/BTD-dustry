@@ -1,0 +1,55 @@
+{
+    type: ItemTurret
+    name: "Bloon Area Denial System"
+    description: "Shoots enemies with a upgraded rocket gun."
+    health: 800
+    size: 2
+    recoilAmount: 1
+    reloadTime: 4
+    range: 10000
+    shots: 5
+    ammoUseEffect: casing1
+    inaccuracy: 10
+    rotateSpeed: 10.0
+    ammoTypes: {
+        pyratite: {
+            speed: 3.0
+            damage: 10
+            lifetime: 10000
+            reloadMultiplier: 1
+            width: 7
+            height: 9
+            splashDamageRadius: 69
+            splashDamage: 50
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+            ammoMultiplier: 2
+            backColor: AF8A69
+            frontColor: ffdab9
+        }
+        blast-compound: {
+            speed: 2.0
+            damage: 20
+            lifetime: 5000
+            reloadMultiplier: 1.5
+            width: 7
+            height: 9
+            splashDamageRadius: 150
+            splashDamage: 50
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 2
+            backColor: FFBE00
+            frontColor: FFBE00
+        }
+    }
+    coolantMultiplier: 0.7
+    requirements: [
+       bronze/9000
+       copper/30
+	   lead/25
+    ]
+    category: turret
+    research: stream
+}
