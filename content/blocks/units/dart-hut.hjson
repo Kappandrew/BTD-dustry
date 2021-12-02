@@ -1,6 +1,6 @@
 type: UnitFactory
-localizedName: Dart Hut
-description: Makes Dart Monkey units.
+localizedName: Dart Hut or NPC House
+description: Makes Dart Monkeys, Terrarians, and Town NPC's.
 health: 500
 size: 3
 itemCapacity: 30
@@ -18,7 +18,7 @@ plans: [
         requirements: [
             bronze/210
         ]
-        time: 1200
+        time: 120
     }
     {
         unit: tridart
@@ -32,7 +32,7 @@ plans: [
         requirements: [
             bronze/800
         ]
-        time: 600
+        time: 60
     }
     {
         unit: engineer
@@ -40,6 +40,40 @@ plans: [
             bronze/800
         ]
         time: 600
+    }
+    {
+        unit: terrarian_wood 
+        requirements: [
+            bronze/400
+            wood/50
+        ]
+        time: 60
+    }
+    {
+        unit: terrarian_copper
+        requirements: [
+            bronze/400
+            copper/50
+        ]
+        time: 120
+    }
+    {
+        unit: terrarian_lead 
+        requirements: [
+            bronze/800
+            lead/65
+            cryocrystal/1
+        ]
+        time: 240
+    }
+    {
+        unit: terrarian_silver
+        requirements: [
+            bronze/800
+            silver/65
+            cryocrystal/1
+        ]
+        time: 240
     }
 ]
 

@@ -3,6 +3,7 @@
  description: "Used to inflate bloons."
  details: "This mineral seems radioactive. Let's try putting it in a dead bloon an- [red]OH NO OH HECK [green]- Quote from Dr. Monkey after putting some Bloontonium in a dead bloon"
  color: 47EDEF
+ radioactivity: 9
  research: {
     parent: bronze
     requirements: [

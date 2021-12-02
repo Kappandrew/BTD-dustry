@@ -3,6 +3,9 @@
  description: "A small bunch of solar matter."
  details: "HOW DO YOU GET MATTER FROM THE SUN!??!?!?!?"
  color: 47EDEF
+ flammability: 6
+ radioactivity: 9
+ charge: 3
  research: {
     parent: cryocrystal
     requirements: [

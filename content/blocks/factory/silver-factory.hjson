@@ -1,25 +1,27 @@
 {
   type: GenericSmelter
-  name: "THE VAPORIZER"
-  description: "F**ING VAPORIZERES COPPER."
-  outputItem: pure-sun/1
+  name: "Silver Smelter"
+  description: "Fuses copper and lead together to make silver. Because science."
+  outputItem: silver/2
   size: 2
   hasPower: false
   craftTime: 0.06
   health: 300
-  itemCapacity: 999999
   updateEffect: smeltsmoke
   consumes: {
-  power: 100
+  power: 0.5
   items: {
     items: [
-    copper/200
+    lead/4
+    copper/4
     ],
   }
   }
   requirements: [
-  lead/4000 
-  copper/8000
+  lead/100 
+  copper/120
+  graphite/40
+  silicon/20
   ],
   category: crafting
   research: graphite-press

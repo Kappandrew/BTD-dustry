@@ -1,0 +1,131 @@
+type: mech
+localizedName: Terrarian (Tier 5 / PT tier)
+description: Basic melee/ranged unit. Now maxed out for pre-boss!
+flying: false
+speed: 3
+hitSize: 9
+health: 400
+armor: 24
+range: 75
+
+weapons: [
+	{
+		name: gun-one
+		reload: 60
+		x: 4
+		y: 2
+		top: false
+		shootSound: gun
+		shots: 1
+		inaccuracy: 0
+		bullet: {
+			type: BasicBulletType
+			damage: 40
+			speed: 10
+			width: 7
+			height: 3
+			lifetime: 30
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+    {
+		name: gun-two
+		reload: 120
+		x: 4
+		y: 2
+		top: false
+		shootSound: gun
+		shots: 5
+		inaccuracy: 30
+		bullet: {
+			type: BasicBulletType
+			damage: 25
+			speed: 5
+			width: 7
+			height: 3
+			lifetime: 60
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+    	{
+		name: sword
+		reload: 15
+		x: 4
+		y: 2
+		top: false
+		shootSound: sword
+		shots: 5
+		inaccuracy: 15
+		bullet: {
+			type: BasicBulletType
+			damage: 30
+			speed: 2.5
+			width: 9
+			height: 25
+			lifetime: 5
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+    {
+		name: sword-beam
+		reload: 30
+		x: 4
+		y: 2
+		top: false
+		shootSound: sword
+		shots: 3
+		inaccuracy: 5
+		bullet: {
+			type: BasicBulletType
+			damage: 30
+			speed: 2.5
+			width: 9
+			height: 25
+			lifetime: 120
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+    {
+		name: finch
+		reload: 600
+		x: 4
+		y: 2
+		top: false
+		ejectEffect: casing1
+		shootSound: throw
+		shots: 1
+		inaccuracy: 0
+		bullet: {
+			type: BasicBulletType
+			damage: 10
+			speed: 2.5
+			width: 5
+			height: 5
+            pierce: true
+            pierceBuilding: true
+            pierceCap: 150000
+            homingPower: 0.1
+            homingRange: 200
+			lifetime: 600
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			ammoMultiplier: 2
+			recoil: 0.4
+		}
+	}
+    
+]
+
+research: terrarian_silver

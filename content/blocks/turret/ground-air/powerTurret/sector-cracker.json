@@ -1,15 +1,14 @@
 {
   "type": "LaserTurret",
-  "name": "Nuclear Explosion Factory",
-  "description": "NO WONDER THE DEATH SHOT'S ORIGINAL NAME, NUKE, WAS CHANGED! THIS IS JUST OP!!!1",
+  "name": "Bloonincieration",
+  "description": "Incinerates stuff or something idk",
   "size": 10,
   "health": 100000,
   "requirements": [
     {"item": "bronze", "amount": 1000000}
   ],
   "shootCone": 1,
-  "shots": 2,
-  "spread": 180,
+  "shots": 1,
   "recoilAmount": 0,
   "range": 40000,
   "reloadTime": 1,

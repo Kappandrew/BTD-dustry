@@ -1,18 +1,17 @@
-type: flying
-localizedName: Nontower Super Monkey
-description: Fires TOO MANY DARTS.
-flying: true
+type: naval
+localizedName: Monkey Sub
+description: Fires five spread-out torpe-darts at enemy units. Stronger when the darts are closer together.
+flying: false
 speed: 0.5
 hitSize: 9
-health: 10000
+health: 220
 armor: 0
 range: 75
-commandLimit: 128
 
 weapons: [
 	{
 		name: spread-shotgun
-		reload: 2
+		reload: 60
 		x: 4
 		y: 2
 		top: false
@@ -22,7 +21,7 @@ weapons: [
 		inaccuracy: 15
 		bullet: {
 			type: BasicBulletType
-			damage: 10
+			damage: 20
 			speed: 2.5
 			width: 7
 			height: 9
@@ -35,4 +34,4 @@ weapons: [
 	}
 ]
 
-research: tridart
+research: dagger

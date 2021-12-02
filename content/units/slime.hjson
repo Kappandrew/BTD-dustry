@@ -1,0 +1,42 @@
+type: mech
+localizedName: Blue Slime
+description: The most basic enemy.
+flying: false
+hitSize: 10
+health: 50
+speed: 0.4
+accel: 0.1
+drag: 0.025
+range: 65
+engineOffset: 5.4
+
+weapons: [
+	{
+		reload: 60
+		mirror: false
+		ignoreRotation: true
+		bullet: {
+			type: BombBulletType
+			damage: 3
+			radius: 65
+			despawnEffect: {
+				type: WaveEffect
+				colorFrom: bf92f9ff
+				colorTo: bf92f9ff
+				sizeFrom: 0
+				sizeTo: 65
+				lifetime: 25
+			}
+			hitEffect: {
+				type: WaveEffect
+				colorFrom: bf92f9ff
+				colorTo: bf92f9ff
+				sizeFrom: 0
+				sizeTo: 65
+				lifetime: 25
+			}
+		}
+	}
+]
+
+research: crawler

@@ -1,0 +1,21 @@
+{
+  type: GenericSmelter
+  name: "Tree Farm"
+  description: "Makes wood."
+  outputItem: wood/5
+  size: 4
+  hasPower: false
+  craftTime: 60
+  health: 300
+  updateEffect: smeltsmoke
+  consumes: {
+  power: 0.05
+  }
+  requirements: [
+  bronze/600
+  ],
+  category: crafting
+  research: wood
+  ambientSound: respawning
+  ambientSoundVolume: 0.001
+}

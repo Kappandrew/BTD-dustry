@@ -1,0 +1,38 @@
+type: UnitFactory
+localizedName: Port
+description: Makes naval units.
+health: 500
+size: 3
+itemCapacity: 30
+
+requirements: [
+    copper/100
+    lead/250
+    silicon/200
+    metaglass/140
+]
+
+plans: [
+    {
+        unit: buccaneer
+        requirements: [
+            bronze/630
+        ]
+        time: 1200
+    }
+    {
+        unit: grapebuccaneer
+        requirements: [
+            bronze/1485
+        ]
+        time: 600
+    }
+]
+
+category: units
+
+consumes: {
+    power: 0
+}
+
+research: command-center
